@@ -1,0 +1,20 @@
+[user]
+    name = mikebradbury
+	email = mike@bradbury.io
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+[core]
+    excludesfile = /Users/mike/code/.gitignore_global
+[merge]
+    tool = vimdiff
+[alias]
+    lg = log --graph --oneline --decorate -20
+    a = add .
+    cm = commit -m
+    p = push
+    pll = pull
+    s = status

@@ -1,0 +1,44 @@
+# Detect which `ls` flavor is in use
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+  colorflag="--color"
+else # OS X `ls`
+  colorflag="-G"
+fi
+
+# Always use colour output for `ls`
+alias ls="command ls ${colorflag}"
+
+# Always copy contents of directories (r)ecursively and explain (v) what was done
+alias cp='cp -rv'
+
+# Explain (v) what was done when moving a file
+alias mv='mv -v'
+
+# Always trash files rather than rm
+alias rm='trash'
+
+# Create any non-existent (p)arent directories and explain (v) what was done
+alias mkdir='mkdir -pv'
+
+# # Always try to (c)ontinue getting a partially-downloaded file
+alias wget='wget -c'
+
+# List all files colourised in long format
+alias l='ls'
+
+# List all files colorised in long format, including dot files
+alias la='ls -latr'
+
+# List only directories
+alias lsd='ls -l | grep "^d"'
+
+# Prefer htop (https://github.com/htop-dev/htop)
+alias top='htop'
+
+# git
+alias gs='git s'
+alias gl='git lg'
+alias ga='git a'
+alias gcm='git cm'
+alias gp='git p'
+alias gpll='git pll'

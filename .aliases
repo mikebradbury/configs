@@ -8,6 +8,9 @@ fi
 # Always use colour output for `ls`
 alias ls="command ls ${colorflag}"
 
+# nvim as default
+alias vi='nvim'
+
 # Always copy contents of directories (r)ecursively and explain (v) what was done
 alias cp='cp -rv'
 

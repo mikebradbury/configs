@@ -28,6 +28,10 @@
 .settings
 .tmproj
 .vscode
+.venv
+.webassets-cache
 Thumbs.db
 _site
 nbproject
+venv/
+instance/

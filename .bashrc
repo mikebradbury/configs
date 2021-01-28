@@ -6,7 +6,7 @@ source ~/.bash_prompt
 [ -f ~/.bashrc.local ] && source ~/.bashrc.local
 
 # EDITOR
-export EDITOR=vim
+export EDITOR=nvim
 
 # History management
 export HISTCONTROL=ignoreboth

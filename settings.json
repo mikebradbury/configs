@@ -13,6 +13,7 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": "400",
     "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.formatting.provider": "none",

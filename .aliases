@@ -1,12 +1,12 @@
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
-  colorflag="--color"
+  colorflag='--color'
 else # OS X `ls`
-  colorflag="-G"
+  colorflag='-G'
 fi
 
 # Always use colour output for `ls`
-alias ls="command ls ${colorflag}"
+alias ls='command ls ${colorflag}'
 
 # nvim as default
 alias vi='nvim'
@@ -37,6 +37,13 @@ alias lsd='ls -l | grep "^d"'
 
 # Prefer htop (https://github.com/htop-dev/htop)
 alias top='htop'
+
+# tmux related aliases
+alias ta='tmux -u attach -t'
+alias tn='tmux -u new'
+
+# vim config
+alias vc='vi ~/.config/nvim/init.vim'
 
 # git
 alias gs='git s'

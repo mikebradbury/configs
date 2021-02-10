@@ -1,5 +1,3 @@
-# README.md
-
 ### Config Files
 
 My shell, nvim, tmux, git and vscode configuration, usually kept up to date.

@@ -6,6 +6,7 @@
 *.o
 *.orig
 *.pyc
+*.pyo
 *.rej
 *.sass-cache
 *.sublime-project
@@ -35,3 +36,4 @@ _site
 nbproject
 venv/
 instance/
+__pycache__/

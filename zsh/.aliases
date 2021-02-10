@@ -42,8 +42,9 @@ alias top='htop'
 alias ta='tmux -u attach -t'
 alias tn='tmux -u new'
 
-# vim config
+# fast access to config
 alias vc='vi ~/.config/nvim/init.vim'
+alias tc='vi ~/.tmux.conf'
 
 # git
 alias gs='git s'

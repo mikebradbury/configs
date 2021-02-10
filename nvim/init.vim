@@ -22,6 +22,8 @@ set timeoutlen=1000
 set ttimeoutlen=10
 set wildmenu
 set scrolloff=8
+" fix for macos, tmux and vim slow scrolling - not sure this works.
+set regexpengine=1
 
 " Give more space for displaying messages.
 set cmdheight=2
